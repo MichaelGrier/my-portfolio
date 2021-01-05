@@ -1,0 +1,236 @@
+
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    /* .body-wrapper {
+        width: 60%;
+    } */
+
+    .contact-heading {
+        left: 33%;
+        top: 10%;
+    }
+
+    .footer-nav li:first-child {
+        margin-left: 2%;
+    }
+
+    .landing-page_heading {
+        left: 23%;
+        top: 15%;
+    }
+
+    .project-text-wrap {
+        width: 60%;
+    }
+
+    .row {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .skills, .skills2 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .social-links li:first-child {
+        margin-left: 55%;
+    }
+
+}
+
+/* Small tablet to big tablet (768px to 1023px) */
+@media only screen and (max-width: 1023px) {
+    
+    ul {-webkit-padding-start: 0;padding-inline-start: 0;}
+
+    .body-wrapper {
+        width: 80%;
+    }
+
+    .contact-heading {
+        left: 29%;
+        top: 12%;
+    }
+
+    .footer-nav li:first-child {
+        margin-left: 0;
+    }
+
+    .project-text-wrap {
+        width: 80%;
+    }
+
+    .row {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .skills, .skills2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .social-links li {
+        margin-right: 8%;
+    }
+
+    .landing-page_heading {
+        left: 20%;
+        top: 22%;
+    }
+
+    .landing-page_heading h1 {
+        font-size: 300%;
+    }
+    
+    .landing-page_heading p {
+        font-size: 110%;
+        margin-top: 8%;
+    }
+
+    .main-nav li {
+        margin-left: 25px;
+    }
+
+    .project-heading {
+        left: 34.5%;
+        top: 12%;
+    }
+
+    .social-links li:first-child {
+        margin-left: 45%;
+    }
+}
+
+/* Larger phones: from 376 to 480px */
+@media only screen and (max-width: 480px) {
+    .row {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .circle-image {
+        height: 60px;
+        width: 60px;
+    }
+
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 45px;
+    }
+
+    .landing-page_heading {
+        left: 0;
+        position: relative;
+        text-align: center;
+        top: 15%; /*review after live view*/
+        
+    }
+
+    .landing-page_heading h1 {
+        text-align: center;
+    }
+
+    .landing-page_heading p {
+        margin-top: 2%;
+    }
+
+    .skills {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tech-logo {
+        display: none;
+    }
+
+    .small-heading {
+        margin-bottom: 1rem;
+    }
+
+    .body-text {
+        margin-bottom: 1rem;
+    }
+
+    .footer-nav {
+        margin-top: 4.25%;
+    }
+
+    .footer-nav li {
+        margin-right: 4%;
+        font-size: 80%;
+    }
+
+    footer-nav li:first-child {
+        margin-left: 0;
+    }
+
+    .social-links li {
+        margin-right: 10%;
+    }
+
+    .social-links li:first-child {
+        margin-left: 15%;
+    }
+
+    .project-picture {
+        border-radius: 30px;
+        height: auto;
+        width: 20rem;
+    }
+
+    .project-heading,
+    .contact-heading {
+        left: 0;
+        position: relative;
+        text-align: center;
+        top: 3%;
+    }
+
+    #contact-info {
+        padding: 12% 4%;
+    }
+
+    .contact-info_table {
+        font-size: 100%;
+    }
+
+}
+
+/* Smaller phones: from 376 to 480px */
+@media only screen and (max-width: 375px) {
+    .main-nav li {
+        margin-left: 15px;
+    }
+
+    #footer {
+        height: 10%;
+    }
+
+
+    .footer-nav a {
+        font-size: 90%;
+    }
+
+    footer-nav li {
+        padding-top: 2%;
+    }
+
+    .footer-nav li:first-child {
+        margin-left: 0;
+    }
+
+    .social-links li:first-child {
+        margin-left: 3%;
+    }
+
+    .contact-info_table {
+        font-size: 90%;
+    }
+
+    .created-by {
+        font-size: 70%;
+    }
+}
