@@ -1,17 +1,17 @@
+@media only screen and (max-width: 1400px) {
 
-/* Big tablet to 1200px (widths smaller than the 1140px row) */
+}
+
+
+/* Big tablet to 1200px */
 @media only screen and (max-width: 1200px) {
-    /* .body-wrapper {
+    .body-wrapper {
         width: 60%;
-    } */
-
-    .contact-heading {
-        left: 33%;
-        top: 10%;
     }
 
-    .footer-nav li:first-child {
-        margin-left: 2%;
+    .contact-heading,
+    .project-heading {
+        margin-top: 2rem;
     }
 
     .landing-page_heading {
@@ -33,10 +33,18 @@
         margin-right: 10%;
     }
 
-    .social-links li:first-child {
-        margin-left: 55%;
+    #contact-info {
+        height: 68vh;
     }
 
+    .contact-info_table {
+        margin-top: 15rem;
+        font-size: 200%;
+    }
+
+    .footer-nav-wrap {
+        padding-top: .5rem;
+    }
 }
 
 /* Small tablet to big tablet (768px to 1023px) */
@@ -48,9 +56,8 @@
         width: 80%;
     }
 
-    .contact-heading {
-        left: 29%;
-        top: 12%;
+    .small-heading {
+        font-size: 129%;
     }
 
     .footer-nav li:first-child {
@@ -71,10 +78,6 @@
         margin-right: 5%;
     }
 
-    .social-links li {
-        margin-right: 8%;
-    }
-
     .landing-page_heading {
         left: 20%;
         top: 22%;
@@ -93,13 +96,13 @@
         margin-left: 25px;
     }
 
-    .project-heading {
-        left: 34.5%;
-        top: 12%;
+    #contact-info {
+        height: 60vh;
     }
 
-    .social-links li:first-child {
-        margin-left: 45%;
+    .contact-info_table {
+        margin-top: 8rem;
+        font-size: 150%;
     }
 }
 
@@ -113,12 +116,17 @@
     .circle-image {
         height: 60px;
         width: 60px;
+        margin-top: 1rem;
     }
 
     .main-nav {
         float: right;
         list-style: none;
         margin-top: 45px;
+    }
+
+    .main-nav li {
+        font-size: 80%;
     }
 
     .landing-page_heading {
@@ -150,29 +158,56 @@
         margin-bottom: 1rem;
     }
 
+    .uis {
+        padding-right: 0
+    }
+
+    .data {
+        padding-left: 0;
+    }
+
+    .uis-text,
+    .data-text {
+        text-align: center;
+    }
+
     .body-text {
         margin-bottom: 1rem;
+    }
+
+    .btn {
+        margin-top: 3rem;
     }
 
     .footer-nav {
         margin-top: 4.25%;
     }
 
-    .footer-nav li {
-        margin-right: 4%;
-        font-size: 80%;
+    .footer-nav-wrap {
+        padding: 0 1rem;
     }
 
-    footer-nav li:first-child {
-        margin-left: 0;
+    .footer-nav li {
+        margin-right: 3%;
+        font-size: 75%;
+    }
+
+    .social-links {
+        padding-top: .5rem;
     }
 
     .social-links li {
-        margin-right: 10%;
+        font-size: 80%;
+        margin-left: 6%;
     }
 
     .social-links li:first-child {
         margin-left: 15%;
+    }
+
+    .created-by {
+        padding-top: 1rem;
+        font-size: 65%
     }
 
     .project-picture {
@@ -183,18 +218,20 @@
 
     .project-heading,
     .contact-heading {
-        left: 0;
         position: relative;
         text-align: center;
-        top: 3%;
+        font-size: 200%;
+        padding-top: 3rem;
     }
 
     #contact-info {
         padding: 12% 4%;
+        height: 50vh;
     }
 
     .contact-info_table {
-        font-size: 100%;
+        margin-top: 3rem;
+        font-size: 90%;
     }
 
 }
@@ -208,7 +245,6 @@
     #footer {
         height: 10%;
     }
-
 
     .footer-nav a {
         font-size: 90%;
@@ -227,7 +263,8 @@
     }
 
     .contact-info_table {
-        font-size: 90%;
+        font-size: 80%;
+        margin-top: 4rem;
     }
 
     .created-by {
